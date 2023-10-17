@@ -877,16 +877,16 @@ button {
 
 .project_first div:nth-child(1) {
     display: flex;
-    justify-content: end;
-    align-items: start;
+    justify-content: flex-end;
+    align-items: flex-start;
     z-index: 2;
 }
 
 .project_first div {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     position: relative;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .project_first div:nth-child(1) {
@@ -908,8 +908,8 @@ button {
 .project_second div {
     display: flex;
     position: relative;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .project_second div:nth-child(1) {
@@ -924,7 +924,7 @@ button {
 
 .project_second div:nth-child(2) {
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     z-index: -1;
 }
 
@@ -936,7 +936,7 @@ button {
 
 .project_second div:nth-child(3) {
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     z-index: -3;
 }
 
@@ -948,7 +948,7 @@ button {
 
 .project_third div {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .project_third div:nth-child(1) {

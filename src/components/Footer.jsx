@@ -27,14 +27,12 @@ export const Footer = () => {
           <div className="footer_socials">
             <a
               href="https://www.linkedin.com/in/polina-menshikova-799a69274/"
-              target="_blank"
               className="footer_social"
             >
               <i className="uil uil-linkedin" />
             </a>
             <a
               href="https://github.com/polinamen132132"
-              target="_blank"
               className="footer_social"
             >
               <i className="uil uil-github" />
