@@ -28,13 +28,26 @@ export const Portfolio = () => {
                   fashion curve. With our sleek interface and secure
                   transactions, shopping at "Cou Cou" is effortless.
                 </p>
-                <a
-                  href="https://cou-cou.pages.dev/"
-                  className="button--flex button--small button--link portfolio_button-view"
-                >
-                  View More
-                  <i className="uil uil-arrow-right button_icon" />
-                </a>
+                <div className="portfolio_project-links">
+                  <div>
+                    <a
+                      href="https://cou-cou.pages.dev/"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      View More
+                      <i className="uil uil-arrow-right button_icon" />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/polinamen132132/Cou-Cou"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      Code
+                      <i className="uil uil-github button_icon" />
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="portfolio_project-img">
                 <img src={work_7} style={{ width: "396px", height: "338px" }} />
