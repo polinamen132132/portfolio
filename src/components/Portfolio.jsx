@@ -4,6 +4,7 @@ import work_1 from "../assets/work-1.png";
 import work_3 from "../assets/work-3.png";
 import work_6 from "../assets/work-6.png";
 import work_7 from "../assets/work-7.png";
+import work_8 from "../assets/work-8.png";
 
 export const Portfolio = () => {
   return (
@@ -64,6 +65,45 @@ export const Portfolio = () => {
           <div className="portfolio_project-second">
             <div className="portfolio_project-container">
               <div className="portfolio_project-description">
+                <h1>YouTube Grabber</h1>
+                <span>Back-end Developer</span>
+                <p>
+                  YouTube Grabber is a Telegram bot built with Python, enabling
+                  easy downloads of YouTube videos directly to your device. Just
+                  send a video link, and receive a link to download a file.
+                  Ideal for both mobile and desktop users.
+                </p>
+                <div className="portfolio_project-links">
+                  <div>
+                    <a
+                      href="https://t.me/YTGrabberBot_bot"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      View More
+                      <i className="uil uil-arrow-right button_icon" />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/polinamen132132/YTGrabberBot"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      Code
+                      <i className="uil uil-github button_icon" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio_project-img">
+                <img src={work_8} style={{ width: "159px", height: "340px" }} />
+              </div>
+            </div>
+          </div>
+
+          {/* ================ PROJECT 3 ================
+          <div className="portfolio_project-second">
+            <div className="portfolio_project-container">
+              <div className="portfolio_project-description">
                 <h1>Visio Scan</h1>
                 <span>Back-end Developer</span>
                 <p>
@@ -72,19 +112,32 @@ export const Portfolio = () => {
                   and patterns. Simply send an image to it, and it will provide
                   you with analysis and insights.
                 </p>
-                <a
-                  href="https://t.me/ChatChipan_bot"
-                  className="button--flex button--small button--link portfolio_button-view"
-                >
-                  View More
-                  <i className="uil uil-arrow-right button_icon" />
-                </a>
+                <div className="portfolio_project-links">
+                  <div>
+                    <a
+                      href="https://t.me/ChatChipan_bot"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      View More
+                      <i className="uil uil-arrow-right button_icon" />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/polinamen132132/Visio-Scan"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      Code
+                      <i className="uil uil-github button_icon" />
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="portfolio_project-img">
                 <img src={work_6} style={{ width: "159px", height: "340px" }} />
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* ================ PROJECT 4================ */}
           <div className="portfolio_project-second">
@@ -118,13 +171,26 @@ export const Portfolio = () => {
                   reminders. Don't miss celebrating special moments with loved
                   ones.
                 </p>
-                <a
-                  href="https://t.me/Birthday_Beacon_bot"
-                  className="button--flex button--small button--link portfolio_button-view"
-                >
-                  View More
-                  <i className="uil uil-arrow-right button_icon" />
-                </a>
+                <div className="portfolio_project-links">
+                  <div>
+                    <a
+                      href="https://t.me/Birthday_Beacon_bot"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      View More
+                      <i className="uil uil-arrow-right button_icon" />
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/polinamen132132/Birthday-Beacon"
+                      className="button--flex button--small button--link portfolio_button-view"
+                    >
+                      Code
+                      <i className="uil uil-github button_icon" />
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="portfolio_project-img">
                 <img src={work_5} style={{ width: "159px", height: "340px" }} />
