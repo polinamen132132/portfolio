@@ -29,7 +29,7 @@ export const Qualifications = () => {
             {/*==================== QUALIFICATION  3 ===================*/}
             <div className="qualification_data">
               <div>
-                <h3 className="qualifiaction_title">React Devloper Intern</h3>
+                <h3 className="qualifiaction_title">React Developer Intern</h3>
                 <span className="qualification_subtitle">Cola-Web</span>
                 <div className="qualification_calendar">
                   <i className="uil uil-calendar-alt" /> 2020-2021
